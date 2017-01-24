@@ -1,4 +1,16 @@
-# GeoDocker GeoTrellis Jupyter Notebook #
+# GeoDocker GeoTrellis Jupyter Notebook - For "GeoTrellis Design Patterns" talk #
+
+To run the talk notebook, do
+
+```console
+make build
+make run
+```
+
+Then navigate to `localhost:8000`, login is "jack", password "jack".
+Notebook is named `GeoTrellis Design Patterns.ipynb`
+
+## GeoDocker GeoTrellis Jupyter Notebook README
 
 A Docker container to provide a Jupyter notebook instance with GeoTrellis functionality to [GeoDocker](https://github.com/geodocker/geodocker).
 
